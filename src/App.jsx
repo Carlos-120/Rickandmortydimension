@@ -12,7 +12,7 @@ import getRandomNumber from './utils/getRandomNumber'
 
 function App() {
   const [location, setLocation] = useState()
-  const [locationName, setLocationName] = useState("")
+  const [locationName, setLocationName] = useState("126")
   const [showError, setShowError] = useState(false)
 
   const getDataDimension = (idDimension) => {
